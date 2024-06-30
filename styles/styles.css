@@ -306,7 +306,7 @@ fieldset{
 }
 .fieldset{
     padding-top: 3em;
-    background-image: url(/image/moto-rider.webp);
+    background-image: url(../image/moto-rider.webp);
     justify-content: center;
     display: flex;
     height: 35em;
@@ -371,7 +371,7 @@ iframe{
 /*aqui empieza caa seguros*/
 .form-seguros{
     padding-top: 3em;
-    background-image: url(/image/moto-rider.webp);
+    background-image: url(../image/moto-rider.webp);
     display: block;
     justify-content: center;
     text-align: center;
