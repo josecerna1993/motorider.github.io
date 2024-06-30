@@ -1,0 +1,698 @@
+ 
+body{
+    border:0%;
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+nav{
+    right: 0%;
+    left: 0%;
+    position: fixed;
+    background-color: white;
+    height: 8%;
+    display: flex;
+}
+.logoprincipal > a > img{
+    height: 100%;
+    border: 0%;
+    margin: 0%;
+}
+.logoprincipal{
+    margin-left: auto;
+    text-align: center;
+}
+.redessociales > a > img{
+    width: 100%;
+}
+.redessociales > a{
+    display: block;
+}
+.redessociales{
+    height: 3.5em;
+    width: 1em;
+    margin-left: auto;
+}
+.menuprincipal{
+    display: flex;
+}
+.menu-principal{
+    list-style-type: none;
+    padding: 2%;  
+}
+.menu-principal > li{
+    position: relative;
+    display: flex; 
+
+}
+.submenu{
+    display:none;
+    position: absolute;
+    list-style-type: none;
+    padding: 15%;
+    margin: 25%;
+    top: 8%;
+    left: 5%;
+    border-style: solid;
+    border: 0;
+    width: 400%;
+    background-color: rgb(228, 225, 225);
+}
+.menu-principal >li:hover .submenu{
+    display: block;    
+}
+.submenu > li{
+    padding: 7%;
+    border-bottom-style: solid;
+    border-width: 2px;
+}
+.submenu > li> a{
+    color: black;
+    text-decoration: none;
+}
+.menu-principal >li >img{
+    position: relative;
+
+}
+.submenu> li >a:visited{
+    color: black;
+}
+.submenu >li >a:hover{
+    color: rgb(179, 171, 219);
+}
+.submenu > li >a:active{
+    color: rgb(181, 176, 206);
+}
+.inicio{
+    display: block;
+}
+main{
+    padding-top: 3%;
+}
+.inicio > img{
+    width: 100%;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 10px 12px 8px rgb(68, 85, 146);
+    color: rgb(9, 8, 8)
+}
+.refran > p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 2px 8px 6px rgb(68, 85, 146);
+    color: rgb(128, 127, 127)
+}
+.modelos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: normal;
+    z-index: -1;
+}
+.modelos_moto{
+    width: 40%;
+    background-color: rgb(221, 221, 221);
+    padding:0%;
+    border: 0%;
+    margin: 0.5%;
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: none;
+    border-radius: 7%;
+    
+}
+.modelos_moto>a>img{
+    width: 100%;
+    height: 25vw; 
+}
+.modelos_moto>a{
+    align-items: center;
+    text-decoration: none;
+}
+.estilos_nombre{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 3.3vw;
+    text-align: center;
+    font-size: 2.5vw;
+    text-transform: capitalize;
+    color: white;
+    align-items: center;
+    justify-items: center;
+}
+.titulo_modelos,.titulo_accesorios,.titulo_seguros,.titulo_ubicacion>p{
+    text-align: center;
+    font-size: 5vw;
+}
+.titulo_modelos>p::after{
+    content: "estilo";
+    color: red;
+}
+.titulo_accesorios>p::after{
+    content: "necesitas";
+    color: red;
+}
+.titulo_seguros>p::after{
+    content: "seguro";
+    color: red;
+}
+.titulo_ubicacion>p::after{
+    content: "encuentras";
+    color: red;
+}
+.contenido{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center
+
+}
+.contenido>a{
+    text-decoration: none;
+}
+.subcontenido>a>img{
+    width: 100%;
+    height: 20vw;
+    display: block;
+}
+.nombre_subcontenido{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-transform: capitalize;
+    font-size: 3vw;
+    justify-items: center;
+    align-items: center;
+}
+.subcontenido{
+    width: 50%;
+    background-color: rgb(221, 221, 221);
+    padding:0%;
+    border: 0%;
+    margin: 0.5%;
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: none;
+    border-radius: 7%;
+}
+
+.footer{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    text-align: center;
+    height: 15vw;
+    width: 100%;
+    align-items: normal;
+    justify-content: center;
+    
+}
+.logo_footer>div>a>img{
+    height: 10vw;
+    align-items: center;
+    border-color: rgb(0, 0, 0);
+    text-align: center;
+    
+}
+
+.logo_footer>div{
+    padding: 0;
+    border: 0;
+    margin-right: 0vw;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.logo_footer{
+    
+    width: 40%;
+}
+.info_moto_rider>p{
+    color: white;
+    font-size: 1vw;
+}
+.info_moto_rider{
+    align-items: center;
+    text-align: center;
+    margin-top: 1vw;
+    margin-left: 5vw;
+}
+#titulo_columna{
+    font-size: 1.5vw;
+    color: white;
+}
+.conoce_moto_rider{
+    margin-top: 1vw;
+    margin-left: 5vw;
+}
+.conoce_moto_rider>a{
+    text-decoration: none;
+    color: white;
+    font-size: 1vw;
+}
+.whatsapp{
+    width: 8em;
+    display: block;
+    text-align: center;
+    position: fixed;
+    bottom: 3em ;
+    right: 1em;
+}
+.whatsapp_logo>a>img{
+    width: 30%;
+}
+.whatsapp_logo{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+.escribenos{
+    color: rgb(120, 120, 120);
+    font-weight: bolder;
+}
+.escribenos::after{
+    content: "!!!";
+    color: red;
+}
+/* aqui empieza css de contacto*/
+
+fieldset{
+    background-color: darkgray;
+    height: 30em;
+    width: 5em;
+    display: block;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(72, 74, 95);
+    font-weight: bold;
+}
+.fieldset{
+    padding-top: 3em;
+    background-image: url(/image/moto-rider.webp);
+    justify-content: center;
+    display: flex;
+    height: 35em;
+    width: 100%;
+    
+}
+textarea{
+    resize: none;
+    height: 10em;
+    width:;
+}
+legend{
+    background-color: rgb(237, 238, 238);
+}
+.titulo_sucursales{
+    text-align: center;
+    font-size: 5vw;
+}
+.mapa{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    
+}
+iframe{
+    width:100%;
+    height: 18vw;
+}
+.sucursal{
+    width: 40%;
+    text-align: center;
+    display: block;
+    border-radius: 20px;
+    margin: 2%;
+
+}
+.nombre_sucursal{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    
+}
+.contener-iframe{
+    border-radius: 20px;
+    display: block;
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+    border-style: dotted;
+}
+.casa_central,.cel,.mail{
+    background-color: rgb(201, 201, 201);
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 1vw;
+}
+.casa_central{
+    padding-top: 4vw;
+}
+/*aqui empieza caa seguros*/
+.form-seguros{
+    padding-top: 3em;
+    background-image: url(/image/moto-rider.webp);
+    display: block;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 2em;
+    
+}
+.fieldset-seguros{
+    width: 35em;
+    height: 3em;
+    text-align: center;
+    background-color: rgb(203, 200, 200);
+}
+.contenedor-form{
+    display: flex;
+    justify-content: center;
+}
+.titulo-contenedor-form{
+    color: rgb(234, 237, 240);
+    font-size: 2em;
+    text-shadow: 2px 4px 4px black;
+    padding-bottom: 1em;
+}
+.titulo-contenedor-form::after{
+    content: "Seguro de Moto";
+    color: rgb(225, 255, 0);
+}
+.motivo-seguro{
+    text-align: center;
+    width: 20em;
+    justify-content: center;
+    border-radius: 12px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    margin: 7px;
+}
+.contenedor-motivo-seguro{
+    display: flex;
+    justify-content: center;
+}
+.motivo-seguro>h2{
+    color: rgb(53, 130, 207);
+}
+/*service mecanico*/
+
+.contenedor_img_service_mecanico>img{
+    width: 100%;
+}
+.contenedor_text_service_mecanico{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+.contenedor_text_service_mecanico>div{
+    width: 50%;
+    text-align: center;
+    border-color: rgb(255, 0, 0);
+    border-style: solid;
+    border-radius: 20px;
+    padding: 15px;
+    font-weight: bold;
+
+}
+.contenedor_enlace_whatsapp{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.contenedor_enlace_whatsapp>a>div>img{
+    width: 2em;
+}
+.contenedor_enlace_whatsapp>a>div{
+    background-color: rgb(13, 194, 76);
+    border-color: rgb(36, 144, 36);
+    border-style: solid;
+    border-radius: 10px;
+    padding: 8px;
+}
+.contenedor_enlace_whatsapp>a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+/*gracias*/
+
+.gracias{
+    margin-top: 4em;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.img_gracias{
+    width: 100%;
+    
+}
+.img_gracias>img{
+    width: 26hv;
+    border-radius: 20px;
+    
+}
+.text_gracias{
+    margin: 4em;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 4px 5px 19px rgb(93, 92, 92);
+}
+
+/*accesorios*/
+
+.contenedor_titulo_accesorios{
+    text-align: center;
+
+}
+.contenedor_titulo_accesorios>h2::after{
+    content: "vendidos!";
+    color: red;
+}
+.contenedor_bloques_accesorios{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+.contenedor_datos_accesorios{
+    background-color: rgba(186, 186, 186, 0.419);
+    border-color: black;
+    border-style: solid;
+    margin: 18px;
+    width: 23%;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-radius: 15px;
+    box-shadow: none;
+    
+}
+.consulta_whatsapp>a>img{
+    width: 1.5em;
+}
+.contenedor_datos_accesorios>img{
+    width: 100%;
+    height: 24vw;
+}
+.precio_accesorio{
+    color: red;
+    font-weight: bolder;
+    margin: 7px;
+    font-size: 18px;
+}
+.nombre_accesorio{
+    font-weight: bolder;
+    font-size: 18px;
+}
+.consulta_whatsapp>a{
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.consulta_accesorio{
+    color: white;
+    text-align: center;
+    justify-items: center;
+    font-size: 18px;
+    font-weight: bolder;
+    overflow: hidden;
+}
+.consulta_whatsapp{
+    background-color: rgb(16, 163, 9);
+    
+}
+/*marcas*/
+.titulo_marcas{
+    text-align: center;
+    font-size: 30px;
+}
+.titulo_marcas>h2::after{
+    content: "sos?";
+    color: red;
+}
+.contenedor_logo_marca{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 10vw;
+}
+.logo_marca{
+    width: 20%;
+    margin: 19px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.logo_marca>a>img{
+    width: 100%;
+}
+/*secciones marcas*/
+.contenedor_motos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    margin: 30px;
+}
+.contenedor_moto_descripcion{
+    width: 28%;
+    overflow: hidden;
+    margin: 15px;
+    box-shadow: none;
+    border-color: gray;
+    border-style: solid;
+    border-radius: 10px;
+    text-align: center;
+    display: block;
+    justify-content: center;
+}
+.contenedor_moto_descripcion>a>img{
+    width: 100%;
+    height: 24vw;
+}
+.contenedor_moto_descripcion>a{
+    text-decoration: none;
+}
+.titulo_moto{
+    color: black;
+    font-size: 2.3vw;
+    font-weight: bold;
+    overflow: hidden;
+    width: 100%;
+    height: 3.3vw;
+    text-align: center;
+    justify-content: center;
+}
+.precio_moto{
+    color: red;
+    font-size: 18px;
+    margin: 8px;
+    font-weight: bold;
+}
+/*motos*/
+.contenedor_caracteristica_moto{
+    display: flex;
+    margin: 20px;
+}
+.contenedor_caracteristica_moto>picture{
+    width: 40%;
+}
+.contenedor_caracteristica_moto>picture>img{
+    width: 100%;
+}
+.datos_moto{
+    display: block;
+    text-align: center;
+}
+.datos_moto_modelo{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px;
+}
+.datos_moto_precio{
+    font-size: 20px;
+    color: red;
+    margin: 15px;
+}
+.consultar_moto>a{
+    display: flex;
+    background-color: rgb(18, 166, 18);
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 10em;
+    border-radius: 14px;
+    margin-bottom: 15px;
+}
+.consultar_moto{
+    display: flex;
+    justify-content: center;
+}
+.consultar_moto>a>img{
+    width: 2em;
+}
+.consultar_moto>a>div{
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    color: white;
+}
+.ficha_tecnica{
+    display: block;
+    text-align: center;
+}
+.ficha_tecnica>picture>img{
+    width:80%;
+}
+.ficha_tecnica>div{
+    font-size: 25px;
+    margin: 20px;
+    text-decoration: underline;
+}
+.test_drive{
+    display: block;
+    text-align: center;
+}
+.test_drive>div{
+    font-size: 25px;
+    margin: 20px;
+    text-decoration: underline;
+}
+.test_drive>picture>iframe{
+    width: 50%;
+    margin-bottom: 6vw;
+}
